@@ -1,9 +1,8 @@
 # ROS
-This repo was made while doing a project in a hackathon e-yantra .
+This repo was made as a part of hackathon e-yantra .This project was done by 5 people.
 ## Requirements:
 - Ubuntu 18.04
 - ROS Melodic
-- Gazebo world
 
 ## Task 1 : To move the turtle inside the turtlesim window in a circle and stop at its initial location.
 ### Procedure:
