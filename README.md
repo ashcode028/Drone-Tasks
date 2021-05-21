@@ -97,7 +97,7 @@ PUBLICATIONS				            SUBSCRIPTIONS
 roslaunch vitarana_drone task_1.launch
 ```
 - Problem statement:
-The eDrone starts from the origin ie. latitude = 19.0, longitude = 72.0, altitude = 0.31 The eDrone has to go exactly above the start position to the height when the GPS altitude is 3 meters. Next, the eDrone should go the set-point: latitude =19.0000451704 , longitude = 72.0, altitude = 3m. Next, the eDrone should come down at the same latitude-longitude and land on the marker that is placed below it.
+- The eDrone starts from the origin ie. latitude = 19.0, longitude = 72.0, altitude = 0.31 The eDrone has to go exactly above the start position to the height when the GPS altitude is 3 meters. Next, the eDrone should go the set-point: latitude =19.0000451704 , longitude = 72.0, altitude = 3m. Next, the eDrone should come down at the same latitude-longitude and land on the marker that is placed below it.
 ![](https://github.com/ashcode028/ROS/blob/36883db3911a706890729a1f72291db56537aec6/vitarana_drone/images/task.gif)
 - There is no specific time window for which you need to stay at each set-point, but a set-point will be considered valid only if the eDrone comes in the threshold box of that particular set-point even for one instance. The threshold box can be calculated by using the tolerance of ±0.000004517 in latitude, ±0.0000047487 in longitude and ±0.2m in altitude.
 - Use your position controller script to dynamically change the set-points to complete the task.
