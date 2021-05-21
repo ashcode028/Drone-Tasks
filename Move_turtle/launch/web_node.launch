@@ -1,0 +1,9 @@
+<launch>
+	
+    <node pkg="pkg_task0" type="webpage_launch.sh" name="webpage_launch" output="screen">
+        <param name="cmd" value="$(find pkg_task0)/launch/webpage_launch.sh"/>
+    </node>
+        
+    <node pkg="pkg_task0" type="node_turtle_revolve.py" name="node_hello_rosnode_turtle_revolve" output="screen"/>
+
+</launch>
