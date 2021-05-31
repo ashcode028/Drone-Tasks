@@ -1,5 +1,5 @@
 # ROS
-This repo was made as a part of hackathon e-yantra .This project was done by 5 members.
+This repo was made as a part of hackathon e-yantra .This project was done by 5 members in the span of 5 days.
 ## Requirements:
 - Ubuntu 18.04
 - ROS Melodic
